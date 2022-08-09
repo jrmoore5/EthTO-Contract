@@ -113,7 +113,7 @@ library SoulFundLibrary{
     }
 
     function getDecimalString(uint256 whole) internal pure returns(string memory){
-        uint256 remainder = (whole % 1 ether) / 100;
+        uint256 remainder = (whole % 1 ether) % 100;
         uint256 start = whole / 1 ether;
 
         return string(abi.encodePacked(toString(start), ".", toString(remainder))); 
