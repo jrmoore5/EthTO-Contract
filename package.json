@@ -1,0 +1,24 @@
+{
+  "name": "ethto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjamin852/EthTO-Contract.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjamin852/EthTO-Contract/issues"
+  },
+  "homepage": "https://github.com/benjamin852/EthTO-Contract#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "hardhat": "^2.10.1"
+  }
+}
