@@ -13,8 +13,6 @@ contract TokenRenderer is UUPSUpgradeable, OwnableUpgradeable {
         uint256 value;
     }
 
-    address[] tokens;
-
     mapping(address => Attributes) tokenToAttributes;
 
     ISoulFund soulfund;
